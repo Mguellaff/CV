@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Melvin G.</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!--permet de relier mon fichier HTML avec mon fichier CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--permet à Bootstrap d'opérer sur le CSS-->
+</head>
+<body>
+  <div class="row mx-2 my-2">
+    <div class="col-lg-3 col-md-3">
+      <div class="card" style="background-color: rgba(0,125,139,255);">
+  <!--crée une zone à gauche et en bleu-->
+      <img class="card-img-top" src="/images/profil.jpg" alt="profil" width="100%">
+      <!--mon image de profil, prends tout l'espace du car-top-->
+        <hr>
+        <!--crée une ligne-->
+        <div class="card-body">
+          <h3>Coordonnées</h3>
+          <br/>
+          <!--saute une ligne-->
+          <h6><img class="map" src="/images/map.png" alt="map">Paris, France</h6>
+          <!--intègre l'icone de la map avant "Paris, France"-->
+          <h6><img class="send" src="/images/send.png" alt="send"><a href="mailto:melvin.guellaff@gmail.com" style="color: white;" title="N'hésitez pas à me contacter :)">melvin.guellaff@gmail.com</a></h6>
+          <!--mon mail en lien cliquable, en blanc et affiche un petit message lors du passage du curseur-->
+          <h6><img class="phone" src="/images/phone.png" alt="phone">0695970407</h6>
+          <hr>
+          
+          <h3>Compétences</h3>
+          <br/>
+          <ul>
+            <li>HTML : niveau hello world</li>
+            <li>Javascript : pas encore commencé</li>
+            <li>Python : connais pas</li>
+          </ul>
+          <!--liste non-ordonnée de mes compétences-->
+          <hr>
+
+          <h3>Langues</h3>
+          <br/>
+          <h6>Anglais (Niveau B2)</h6>
+          <div class="progress rounded-pill">
+            <div class="progress-bar" style="background-color: rgb(37, 228, 53); height: 100%; width: 70%;">
+              <!--barre de progression remplie à 70%-->
+            </div>
+          </div>
+          <h6>Japonais (Niveau JLPT3)</h6>
+          <div class="progress rounded-pill">
+            <div class="progress-bar" style="background-color: rgb(37, 228, 53); height: 100%; width: 55%;">
+            </div>
+          </div>
+          <hr>
+
+          <h3>Centres d'intérêt</h3>
+          <br/>
+          <p class="centres" style="color: white;">Le jeu vidéo est une passion que j'ai depuis mon plus jeune âge, mon père m'ayant initié avec 
+            sa Playstation 1. J'ai ensuite continué à jouer toute ma vie, à tester les classiques et à explorer 
+            les différents genres qu'offre le jeu vidéo. Je m'intéresse aussi énormément au cinéma, et plus 
+            particulièrement au cinéma d'auteur : découvrir des films méconnus et de nouvelles cultures grâce 
+            au cinéma est et sera toujours un immense plaisir.</p>
+        </div>
+      </div>
+    </div>
+  <div class="col-lg-9 col-md-9 col-12">
+    <!--met la majeure partie du CV sur la droite-->
+    <div class="card">
+      <div class="card-body">
+        <h1 class="nom" style="color: rgba(0,125,139,255); font-size: 70px;">Melvin GUELLAFF</h1>
+        <h3 class="dev" style="color: black;">Développeur web</h3>
+        <!--je précise que ce h3 est en noir car avec le style.css les h3 sont en blanc-->
+        <hr>
+
+        <h4>Profil professionnel</h4>
+        <br/>
+        <p>A la suite de l'obtention de mon baccalauréat scientifique, je me suis dirigé vers une licence 
+          LLCER de Japonais à l'Inalco. Pendant ma troisième année de licence, j'ai été embauché chez Starbucks 
+          en tant que barista. Cela m'a permis d'être plus à l'aise à l'oral, de mieux communiquer avec mes collègues 
+          et d'être toujours dynamique au travail. Le manque d'opportunité professionnelle m'a dissuadé de continuer 
+          vers le master LLCER, je me suis ainsi dirigé vers le secteur du jeu vidéo.</p>
+          <hr>
+
+        <h4>Expérience professionnelle</h4>
+        <br/>
+        <h5>Août 2021 - en cours</h5>
+        <h6 class="barista" style="color: black;">Starbucks, Barista tuteur</h6>
+        <p>En tant que barista je suis chargé d'encaisser les clients, de vendre et de 
+          proposer les produits, de préparer les boissons au bar et de maintenir le salon 
+          propre et ordonné. En tant que tuteur je suis chargé de superviser les nouveaux 
+          baristas et de leur apprendre les rudiments du métier. Ce métier m'a appris à mieux 
+          communiquer avec mes collègues, de travailler en équipe, d'être dynamique et polyvalent. 
+          Etre tuteur m'a aussi appris à être pédagogue et patient.</p>
+          <hr>
+          
+        <h4>Formation</h4>
+        <br/>
+        <h5>Septembre 2022 - en cours</h5>
+        <h6 class="gtech" style="color: black;">G.Tech 1</h6>
+        <p><a href="https://gamingcampus.fr/" style="text-decoration: none; color: blue; font-weight: 500" target="blank" title="gamingcampus.fr">Gaming Campus</a> - Puteaux</p>
+        <!--le target="blank" sert à ouvrir le lien dans un nouvel onglet-->
+        <h5>Septembre 2019 - juillet 2022</h5>
+        <h6 class="llcer" style="color: black;">LLCER Japonais niveau L3</h6>
+        <p class="inalco"><a href="https://inalco.fr" style="text-decoration: none; color: blue; font-weight: 500;"  target="blank" title="inalco.fr">Inalco</a> - Paris</p>
+        <h5>Septembre 2016 - juin 2019</h5>
+        <h6 class="bac" style="color: black;">Baccalauréat scientifique</h6>
+        <!--je précise que ces h6 sont en noir car avec le style.css les h6 sont en blanc-->
+        <!--le text-decoration: none; permet de ne pas souligner les liens-->
+        <p><a href="http://devwp.lycee-andre-malraux.org/" style="text-decoration: none; color: blue; font-weight: 500;"  target="blank" title="Un des meilleurs lycée de Seine-et-Marne">Lycée André Malraux</a> - Montereau-fault-Yonne</p>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--permet à Bootstrap d'opérer sur le JS-->
+</body>
+</html>
